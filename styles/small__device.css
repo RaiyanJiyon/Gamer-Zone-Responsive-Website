@@ -16,6 +16,7 @@
 .navbar__title {
   margin-top: 5px;
   margin-bottom: 15px;
+  gap: 10px;
 }
 
 .navbar__logo {
@@ -45,3 +46,73 @@
   font-size: 1.2rem;
 }
 /* navbar end */
+
+/* banner start */
+.banner {
+  width: 90%;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 40px;
+  gap: 30px;
+}
+
+.banner__images {
+  width: 100%;
+}
+
+.banner__images img {
+  width: 100%;
+  height: auto;
+}
+
+.banner__content {
+  width: 100%;
+  padding: 50px 5px;
+}
+
+.banner__content-title {
+  width: 60%;
+  font-size: 1.5rem;
+}
+
+.banner__content-heading {
+  width: 60%;
+  font-size: 2rem;
+}
+
+.banner__content-description {
+  width: 60%;
+}
+
+.banner__content-description p {
+  color: rgb(83, 76, 100);
+  font-size: 1rem;
+}
+
+.banner__content-description i {
+  font-size: 1rem;
+}
+
+.banner__buttons {
+  width: 100%;
+  gap: 10px;
+}
+
+.banner__btn--sign-in,
+.banner__btn--rogue {
+  padding: 5px 10px;
+  font-size: 0.8rem;
+}
+
+.banner__btn--sign-in {
+  width: 90px;
+  height: 40px;
+}
+
+.banner__btn--rogue {
+  width: 120px;
+  height: 40px;
+}
+/* banner end */
+
+/* header container ends here */
