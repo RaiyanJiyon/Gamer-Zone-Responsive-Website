@@ -322,7 +322,6 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 80px;
-
 }
 
 .play--instantly__content {
@@ -361,11 +360,11 @@ body {
 
 .large__img {
   width: 100%;
-  height: 500px;
+  height: 400px;
   display: block;
   margin-bottom: 50px;
   border: 10px solid rgb(255, 255, 255);
-border-radius: 8px;
+  border-radius: 8px;
 }
 
 .large__img img {
@@ -383,6 +382,84 @@ border-radius: 8px;
 
 .small__img img {
   width: 100%;
+}
+/* play--instantly end */
+
+/* play--games start */
+.play--games-section {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-left: 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 150px;
+}
+
+.play--games__images {
+  width: 60%;
+  height: auto;
+  position: relative;
+  display: inline-block;
+}
+
+.play--games-big-image {
+  width: 100%;
+  height: 400px;
+  display: block;
+  margin-bottom: 50px;
+  border: 10px solid rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+.play--games-big-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.play--games-small-image {
+  position: absolute;
+  width: 30%;
+  height: 150px;
+  bottom: 2vw;
+  left: 30vw;
+}
+
+.play--games-small-image img {
+  width: 100%;
+}
+
+.play--games__content {
+  width: 35%;
+  margin-top: 25px;
+}
+
+.play--games-title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.play--games-title-highlight-1 {
+  color: rgb(223, 76, 193);
+}
+
+.play--games-title-highlight-2 {
+  color: rgb(190, 80, 210);
+}
+
+.play--games-description {
+  width: 100%;
+  color: rgb(83, 76, 100);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
 }
 /* play--instantly end */
 
