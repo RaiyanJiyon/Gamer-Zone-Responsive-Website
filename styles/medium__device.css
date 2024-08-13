@@ -86,3 +86,37 @@
 /* banner end */
 
 /* header container ends here */
+
+/* funny--video start */
+.funny--video-section {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.funny--video__content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.funny--video-title {
+  width: 100%;
+  height: auto;
+  font-size: 2rem;
+  line-height: 40px;
+}
+
+.funny--video-description {
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+}
+
+.funny--video__cards {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+/* funny--video end */
