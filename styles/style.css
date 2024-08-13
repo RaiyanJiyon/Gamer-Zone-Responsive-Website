@@ -312,6 +312,78 @@ body {
 }
 /* funny--video end */
 
+/* play--instantly start */
+.play--instantly-section {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-left: 20vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
 
+}
+
+.play--instantly__content {
+  width: 35%;
+  margin-top: 25px;
+}
+
+.play--instantly-title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.play--instantly-title-highlight {
+  color: rgb(223, 76, 193);
+}
+
+.play--instantly-description {
+  width: 90%;
+  color: rgb(83, 76, 100);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.play--instantly__images {
+  width: 60%;
+  position: relative;
+  display: inline-block;
+}
+
+.large__img {
+  width: 100%;
+  height: 500px;
+  display: block;
+  margin-bottom: 50px;
+  border: 10px solid rgb(255, 255, 255);
+border-radius: 8px;
+}
+
+.large__img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.small__img {
+  position: absolute;
+  width: 30%;
+  height: 150px;
+  bottom: 2vw;
+  right: 32vw;
+}
+
+.small__img img {
+  width: 100%;
+}
+/* play--instantly end */
 
 /* main container starts ends */
