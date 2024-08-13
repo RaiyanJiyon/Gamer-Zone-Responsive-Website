@@ -518,13 +518,14 @@ body {
   border-radius: 48px;
   border: none;
   background: rgb(255, 255, 255);
+  color: rgb(255, 66, 165);
   font-size: 1rem;
   font-weight: 600;
   line-height: 13px;
   letter-spacing: 0%;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 20px;
+  margin-top: 30px;
   cursor: pointer;
 }
 
