@@ -15,7 +15,6 @@
 }
 /* navbar end */
 
-
 /* banner start */
 .banner {
   width: 90%;
@@ -171,9 +170,6 @@
 }
 /* play--instantly end */
 
-
-
-
 /* play--games start */
 .play--games-section {
   width: 80%;
@@ -223,4 +219,49 @@
 }
 /* play--instantly end */
 
+/* carrier-section start */
+.carrier-section {
+  width: 100%;
+  margin-top: 40px;
+}
 
+.carrier__content {
+  width: 100%;
+  padding: 50px;
+}
+
+.carrier__content-title {
+  width: 100%;
+  height: auto;
+  font-size: 2rem;
+}
+
+.carrier__content-description {
+  width: 100%;
+  height: auto;
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+.carrier__job {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.carrier__job p {
+  font-size: 1rem;
+}
+
+.carrier__position-btn {
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+.carrier__image {
+  display: none;
+}
+/* carrier-section end */
