@@ -15,6 +15,9 @@ body {
 }
 
 /* common styles */
+#display-hide {
+  display: none;
+}
 
 /* header container starts here */
 
@@ -22,6 +25,7 @@ body {
   width: 100%;
 }
 
+/* navbar start */
 .navbar {
   width: 80%;
   height: auto;
@@ -598,7 +602,6 @@ body {
 .footer {
   width: 100%;
   background: rgb(11, 2, 35);
-  margin-top: 50px;
   border: 1px solid transparent;
 }
 

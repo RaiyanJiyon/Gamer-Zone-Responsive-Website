@@ -1,0 +1,11 @@
+/* header container starts here */
+
+.header {
+  width: 100%;
+}
+
+/* navbar start */
+.navbar {
+  gap: 20px;
+}
+/* navbar end */
