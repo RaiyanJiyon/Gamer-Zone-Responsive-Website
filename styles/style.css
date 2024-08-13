@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* universal selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* common body styles */
+body {
+  font-family: "Work Sans", sans-serif;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+/* common styles */
+
+/* header container starts here */
+
+.header {
+  width: 100%;
+}
+
+.navbar {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.navbar__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar__brand {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 53px;
+  text-align: center;
+}
+
+.navbar__brand-highlight {
+  color: rgb(255, 66, 165);
+}
+
+.navbar__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar__link,
+.navbar__item {
+  color: rgb(60, 53, 79);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: center;
+}
+
+.navbar__item {
+  list-style: none;
+}
+
+.navbar__link {
+  text-decoration: none;
+}
+
+.navbar__follow-us {
+  width: 210px;
+  height: 43px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar__icon-youtube,
+.navbar__icon-tiktok {
+  font-size: 1.5rem;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.navbar__icon-youtube {
+  color: red;
+}
+
+/* navbar end */
+
+/* header container ends here */
