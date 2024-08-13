@@ -39,6 +39,10 @@ body {
   gap: 15px;
 }
 
+.navbar__logo {
+  width: 25%;
+}
+
 .navbar__brand {
   font-size: 1.8rem;
   font-weight: 700;
@@ -588,4 +592,93 @@ body {
 }
 /* games-card-section end */
 
-/* main container starts ends */
+/* main container ends here */
+
+/* footer container starts here */
+.footer {
+  width: 100%;
+  background: rgb(11, 2, 35);
+  margin-top: 50px;
+  border: 1px solid transparent;
+}
+
+.footer__title {
+  margin-top: 100px;
+}
+
+.footer__logo {
+  width: 5%;
+}
+
+.footer__brand {
+  color: white;
+}
+
+.footer__collections {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer__collections p {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.footer__company-logo {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer__company-logo i {
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.footer__policy {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer__policy p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: center;
+}
+
+.footer__copyright {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer__copyright p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: center;
+}
+/* footer container ends here */
