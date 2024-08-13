@@ -539,4 +539,53 @@ body {
 }
 /* carrier-section end */
 
+/* games-card-section start */
+.games-card-section {
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 13.134%,
+    rgba(255, 66, 165, 0.03) 87.942%
+  );
+  padding: 50px;
+}
+
+.games__cards-1 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.games__cards-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.games__card {
+  width: 200px;
+  height: 62px;
+  border-radius: 50px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.games__card img {
+  width: 20%;
+  height: auto;
+}
+
+.games__card-caption {
+  color: rgb(11, 2, 35);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: left;
+}
+/* games-card-section end */
+
 /* main container starts ends */
