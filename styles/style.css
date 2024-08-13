@@ -463,4 +463,79 @@ body {
 }
 /* play--instantly end */
 
+/* carrier-section start */
+.carrier-section {
+  width: 100%;
+  background-color: rgb(255, 85, 174);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.carrier__content {
+  width: 55%;
+  padding: 60px;
+}
+
+.carrier__content-title {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: left;
+}
+
+.carrier__content-description {
+  color: rgb(255, 255, 255);
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.carrier__job {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.carrier__job p {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.carrier__position-btn {
+  width: 220px;
+  height: 50px;
+  padding: 13px 24px;
+  border-radius: 48px;
+  border: none;
+  background: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 13px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.carrier__image {
+  width: 45%;
+  height: 100%;
+}
+
+.carrier__image img {
+  width: 100%;
+}
+/* carrier-section end */
+
 /* main container starts ends */
