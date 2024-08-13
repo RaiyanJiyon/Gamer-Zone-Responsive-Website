@@ -96,7 +96,123 @@ body {
 .navbar__icon-youtube {
   color: red;
 }
-
 /* navbar end */
+
+/* banner start */
+.banner {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.banner__content {
+  width: 50%;
+  background-image: url(../images/Group_14.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.banner__content-title {
+  width: 60%;
+  color: rgb(11, 2, 35);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.banner__content-heading {
+  width: 60%;
+  color: rgb(199, 79, 205);
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.banner__content-description {
+  width: 60%;
+  margin-top: 20px;
+}
+
+.banner__content-description p {
+  color: rgb(83, 76, 100);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0%;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.banner__content-description i {
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+
+.banner__icon--play {
+  color: rgb(255, 66, 165);
+}
+
+.banner__icon--download {
+  color: rgb(255, 66, 165);
+}
+
+.banner__icon--group {
+  color: rgb(255, 66, 165);
+}
+
+.banner__buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.banner__btn--sign-in,
+.banner__btn--rogue {
+  padding: 13px 24px;
+  border-radius: 48px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.banner__btn--sign-in {
+  width: 120px;
+  height: 50px;
+  background-color: rgb(255, 66, 165);
+}
+
+.banner__btn--rogue {
+  width: 140px;
+  height: 50px;
+  background: rgb(78, 197, 247);
+}
+
+.banner__images {
+  width: 45%;
+}
+
+.banner__images img {
+  width: 100%;
+  height: auto;
+}
+/* banner end */
 
 /* header container ends here */
