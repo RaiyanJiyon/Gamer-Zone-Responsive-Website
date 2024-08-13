@@ -217,3 +217,52 @@
   right: 50vw;
 }
 /* play--instantly end */
+
+/* play--games start */
+.play--games-section {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 30px;
+}
+
+.play--games__content {
+  width: 100%;
+  margin-top: 0px;
+}
+
+.play--games-title {
+  width: 100%;
+  height: auto;
+  font-size: 1.5rem;
+}
+.play--games-description {
+  width: 100%;
+  height: auto;
+  font-size: 0.9rem;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.play--games__images {
+  width: 80%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.play--games-big-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0px;
+}
+
+.play--games-small-image {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  bottom: -5vw;
+  left: 50vw;
+}
+/* play--instantly end */
