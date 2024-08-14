@@ -357,3 +357,71 @@
 /* games-card-section end */
 
 /* main container ends here */
+
+/* footer container starts here */
+.footer {
+  width: 100%;
+  background: rgb(11, 2, 35);
+  border: 1px solid transparent;
+}
+
+.footer__title {
+  margin-top: 60px;
+}
+
+.footer__logo {
+  width: 12%;
+}
+
+.footer__collections {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 10px;
+}
+
+.footer__collections p {
+  width: 100%;
+  height: auto;
+  font-size: 0.9rem;
+  line-height: 15px;
+}
+
+.footer__company-logo {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 30px;
+}
+
+.footer__company-logo i {
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.footer__policy {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 15px;
+}
+
+.footer__policy p {
+  width: 100%;
+  height: auto;
+  font-size: 0.8rem;
+}
+
+.footer__copyright {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* footer container ends here */
