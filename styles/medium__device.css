@@ -84,6 +84,81 @@
 }
 /* banner end */
 
+
+
+/* hero section start */
+.hero {
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__images {
+  width: 90%;
+}
+
+.hero__content {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.hero__content-title {
+  width: 100%;
+  height: auto;
+  font-size: 2rem;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.hero__content-description {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero__content-description p {
+  font-size: 1rem;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.hero__content-purpose {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__content-purpose p {
+  font-size: 1.2rem;
+  line-height: 45px;
+  text-align: center;
+}
+
+.hero__content-purpose h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+}
+
+/* hero section end */
+
+
+
+
 /* header container ends here */
 
 /* funny--video start */
