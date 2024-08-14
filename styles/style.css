@@ -11,7 +11,6 @@
 body {
   font-family: "Work Sans", sans-serif;
   width: 100%;
-  /* border: 1px solid red; */
 }
 
 /* common styles */
@@ -109,10 +108,13 @@ body {
 /* banner start */
 .banner {
   width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  justify-content: center;
   margin: 0 auto;
   margin-top: 20px;
+  border: 1px solid transparent;
 }
 
 .banner__content {
@@ -125,7 +127,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px 20px;
+  padding: 0px 25px;
 }
 
 .banner__content-title {
@@ -134,7 +136,6 @@ body {
   font-size: 2rem;
   font-weight: 600;
   line-height: 56px;
-  letter-spacing: 0%;
   text-align: left;
   text-transform: uppercase;
 }
@@ -215,10 +216,12 @@ body {
 
 .banner__images {
   width: 45%;
+  width: 50%;
 }
 
 .banner__images img {
   width: 100%;
+  width: 82%;
   height: auto;
 }
 /* banner end */
