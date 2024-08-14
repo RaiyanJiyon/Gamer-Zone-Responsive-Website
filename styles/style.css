@@ -558,18 +558,16 @@ body {
   padding: 50px;
 }
 
-.games__cards-1 {
+.games__cards {
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-}
-
-.games__cards-2 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 2fr);
+  gap: 10px;
+  margin: 0 auto;
 }
 
 .games__card {
-  width: 200px;
+  width: 210px;
   height: 62px;
   border-radius: 50px;
   background: rgb(255, 255, 255);

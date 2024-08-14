@@ -1,0 +1,22 @@
+/* For screens smaller than 400px */
+
+.games-card-section {
+    overflow-x: hidden;
+}
+
+.games__cards {
+    width: 100%;
+  grid-template-columns: repeat(2, 1fr); /* Adjust to 2 columns */
+  gap: 5px; /* Reduce gap between cards */
+}
+
+.games__card {
+  width: 100px; /* Adjust card width to fit smaller screens */
+  height: 50px; /* Adjust height if needed */
+  border-radius: 25px; /* Adjust border radius for a smaller card */
+}
+
+.games__card-caption {
+  font-size: 0.8rem; /* Reduce font size */
+  line-height: 18px; /* Adjust line height */
+}

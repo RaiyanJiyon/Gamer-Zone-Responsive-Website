@@ -318,3 +318,42 @@
   margin-top: 20px;
 }
 /* carrier-section end */
+
+/* games-card-section start */
+.games-card-section {
+  width: 100%;
+  padding: 10px;
+}
+
+.games__cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.games__card {
+  height: 62px;
+  width: 118px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.games__card img {
+  width: 20%;
+  height: auto;
+}
+
+.games__card-caption {
+  font-size: 0.9rem;
+  line-height: 20px;
+}
+/* games-card-section end */
+
+/* main container ends here */
